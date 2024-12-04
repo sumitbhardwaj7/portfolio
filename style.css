@@ -1,0 +1,345 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.backg {
+    height: 100vh; 
+    background-image: url('optical-chemist-PG1NrnwhOnU-unsplash.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+
+   
+}
+
+.nav
+{
+    
+    height: 150px;
+    display: flex;
+    justify-content: left;
+   
+}
+.logo{
+    color: beige;
+    font-size: 90px;
+    padding: 20px;
+    width: 100vh;
+    font-family: 
+    
+
+    
+}
+
+.iin{
+font-size: 40px;
+text-decoration: none;
+
+width:40%;
+text-decoration: none;
+
+}
+ul{
+    display: flex;
+    justify-content:space-evenly;
+text-decoration: none;   
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+   
+}
+.icon{
+ 
+ font-size: 45px;
+ display: flex;
+ justify-content:space-evenly;
+ color: beige;
+ padding: 25px;
+ width: 10%;
+
+ 
+}
+
+
+
+
+.section{
+    
+
+    margin-top: 200px;
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+.name{
+
+
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 30px rgb(255, 255, 255);
+    font-family: ;
+    color: rgb(255, 255, 255);
+
+}
+.dev{
+    
+    font-size: 35px;
+    text-align: center;
+    font-family: sans-serif; 
+    color: rgb(255, 255, 255);
+
+
+}
+
+.cp{
+    color: beige;
+    margin-top: 250px;
+    margin-left: 20PX;
+}
+
+
+
+/* about us */
+.con{
+    
+    height: 92%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    backdrop-filter: blur(3px);
+    border-radius: 56px;
+}
+.sec{
+    
+    height:90%;
+    width: 100vh;
+
+}
+
+.sec2{
+    
+    height:;
+    width: 50vh;
+    height: 70%; 
+    border-radius: 54px;
+    opacity: 0.9;
+    margin-top: 130px;
+    border: 1px solid white;
+    
+
+    background-image: url(' WhatsApp Image 2024-12-04 at 20.52.16_3b6dc765.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+
+
+}
+
+
+#bio{
+    font-size: 57px;
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 30px rgb(255, 255, 255);
+
+}
+
+#reel{
+    padding: 20px;
+    color: beige;
+    font-size: 24px;
+    font-weight: 200;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.foot{
+color: black;
+background-color: beige;
+display: flex;
+font-size: 16px;
+justify-content: center;
+height: 20px;
+margin: 20px;
+
+}
+
+
+
+
+
+
+
+
+/*contact*/
+
+
+
+.contact-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    
+}
+
+.contact-container h1 {
+    text-align: center;
+    font-size: 50px;
+    color: beige;
+    text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+.contact-container p {
+    text-align: center;
+    font-size: 18px;
+    color: beige;
+    margin-bottom: 30px;
+
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: ;
+    margin: 0px;
+}
+
+.contact-form label {
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border: 1px solid beige;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    background: beige;
+    color: black;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    
+}
+
+.contact-form button:hover {
+    background: rgb(255, 200, 100);
+}
+
+.cpo{
+    color: black;
+    margin: 0px;
+    background-color: beige;
+    text-align: center;
+}
+
+
+
+
+/* portfolio */
+
+
+.portfolio-section {
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+}
+
+.portfolio-section h1 {
+    font-size: 50px;
+    color: beige;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+}
+
+.portfolio-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.portfolio-card {
+    width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: left;
+    color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
+}
+
+.portfolio-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: beige;
+}
+
+.portfolio-card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    background: beige;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: rgb(255, 200, 100);
+}
