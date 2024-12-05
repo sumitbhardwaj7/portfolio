@@ -416,7 +416,7 @@ ul {
     display: flex;
     flex-direction: column;
     width: 130px;
-    
+     justify-content: space-evenly;
     text-align: center;
     
 }
@@ -435,7 +435,7 @@ a {
 .name {
 
 
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 30px rgb(255, 255, 255);
     font-family: ;
@@ -474,7 +474,7 @@ margin-top: 10px;
 }
 
 .cp{
-    margin-top: 150px;
+    margin-top: 170px;
 
 }
 }
