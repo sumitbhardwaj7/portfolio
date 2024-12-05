@@ -416,6 +416,7 @@ justify-content: center;
 ul {
    
     display: flex;
+    
     flex-direction: column;
     width: 100px;
     height: 200px;
@@ -423,7 +424,7 @@ ul {
     text-align: ;
     
     background: transparent;
-    backdrop-filter: blur(#);
+    backdrop-filter: blur(30px);
     border-radius: 30px;
 }
 
