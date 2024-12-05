@@ -423,7 +423,7 @@ ul {
     text-align: ;
     
     background: transparent;
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(#);
     border-radius: 30px;
 }
 
