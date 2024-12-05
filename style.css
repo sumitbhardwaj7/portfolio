@@ -38,6 +38,7 @@ html {
     font-size: 40px;
     text-decoration: none;
     border:2px solid green;
+    text-align:centre;
     width: 40%;
     text-decoration: none;
 
@@ -353,7 +354,6 @@ a {
 
 
 
-
 @media (max-width:630px){
     
 .backg {
@@ -368,13 +368,13 @@ a {
 
 .nav {
 
-    height: 140px;
+    height: 240px;
     display: ;
     justify-content: left;
-    
+   
     display: flex;
     justify-content: space-evenly;
-    
+    width: 100%;
 
 
 
@@ -399,35 +399,39 @@ a {
    
 
 .iin {
-    font-size: 10px;
-    text-decoration: none;
-    height: 210px;
+   
     width: 200px;
-    text-decoration: none;
+display: flex;
+justify-content: center;
     
-
+    height: 230px;
+   
     
 }
 
 ul {
    
-    
-    
     display: flex;
     flex-direction: column;
-    width: 130px;
-     justify-content: space-evenly;
-    text-align: center;
+    width: 100px;
+    height: 200px;
     
+    text-align: ;
+    
+    background: transparent;
+    backdrop-filter: blur(30px);
+    border-radius: 30px;
 }
 
 a {
-    text-decoration: none;
+    
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(255, 255, 255);
+    margin-right: 40px;
     
     
+    padding-right: 80px;
 
 }
 
@@ -435,7 +439,7 @@ a {
 .name {
 
 
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 30px rgb(255, 255, 255);
     font-family: ;
@@ -454,34 +458,12 @@ a {
     flex-direction: column;
     color: beige;
     padding: 25px;
-    width: 20px;
-    
-    
-    border-radius: 
     height: 160px;
 
 
-}
-#win2{
-    margin-top:20px;
-   
-    
-    
-    
-    
-}
-#win3{
-   
-margin-top: 20px;
-}
-#win1{
-    
-    
 
-    margin-top: 40px;
+}   
 
-    
-}
 
 .cp{
     margin-top: 150px;
@@ -489,7 +471,6 @@ margin-top: 20px;
 }
 }
 
- 
-}
+    
 
- 
+
