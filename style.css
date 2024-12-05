@@ -358,7 +358,8 @@ a {
     body{
         margin:0px;
         padding:0px;
-    
+        background-color:black;
+    }
 .backg {
     height: 100vh;
     background-image: url('optical-chemist-PG1NrnwhOnU-unsplash.jpg');
