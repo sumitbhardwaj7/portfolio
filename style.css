@@ -1,82 +1,86 @@
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     height: 100%;
 }
 
 .backg {
-    height: 100vh; 
-    background-image: url('optical-chemist-PG1NrnwhOnU-unsplash.jpg'); 
-    background-size: cover; 
+    height: 100vh;
+    background-image: url('optical-chemist-PG1NrnwhOnU-unsplash.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
 
-   
+
 }
 
-.nav
-{
-    
+.nav {
+
     height: 150px;
     display: flex;
     justify-content: left;
-   
+
 }
-.logo{
+
+.logo {
     color: beige;
     font-size: 90px;
     padding: 20px;
     width: 100vh;
-    font-family: 
-    
+    font-family:
 
-    
-}
 
-.iin{
-font-size: 40px;
-text-decoration: none;
-
-width:40%;
-text-decoration: none;
 
 }
-ul{
+
+.iin {
+    font-size: 40px;
+    text-decoration: none;
+
+    width: 40%;
+    text-decoration: none;
+
+}
+
+ul {
     display: flex;
-    justify-content:space-evenly;
-text-decoration: none;   
+    justify-content: space-evenly;
+    text-decoration: none;
 }
 
-a{
+a {
     text-decoration: none;
     font-size: 30px;
     color: rgb(255, 255, 255);
-   
-}
-.icon{
- 
- font-size: 45px;
- display: flex;
- justify-content:space-evenly;
- color: beige;
- padding: 25px;
- width: 10%;
 
- 
 }
 
+.icon {
+
+    font-size: 45px;
+    display: flex;
+    justify-content: space-evenly;
+    color: beige;
+    padding: 25px;
+    width: 10%;
+
+
+}
 
 
 
-.section{
-    
+
+.section {
+
 
     margin-top: 200px;
     display: flex;
-    justify-content:space-evenly;
-    
+    justify-content: space-evenly;
+
 }
-.name{
+
+.name {
 
 
     font-size: 80px;
@@ -86,17 +90,18 @@ a{
     color: rgb(255, 255, 255);
 
 }
-.dev{
-    
+
+.dev {
+
     font-size: 35px;
     text-align: center;
-    font-family: sans-serif; 
+    font-family: sans-serif;
     color: rgb(255, 255, 255);
 
 
 }
 
-.cp{
+.cp {
     color: beige;
     margin-top: 250px;
     margin-left: 20PX;
@@ -105,43 +110,45 @@ a{
 
 
 /* about us */
-.con{
-    
+
+.con {
+
     height: 92%;
     display: flex;
     justify-content: space-evenly;
-    
+
     backdrop-filter: blur(3px);
     border-radius: 56px;
 }
-.sec{
-    
-    height:90%;
+
+.sec {
+
+    height: 90%;
     width: 100vh;
 
 }
 
-.sec2{
-    
-    height:;
+.sec2 {
+
+    height: ;
     width: 50vh;
-    height: 70%; 
+    height: 70%;
     border-radius: 54px;
     opacity: 0.9;
     margin-top: 130px;
     border: 1px solid white;
-    
 
-    background-image: url(' WhatsApp Image 2024-12-04 at 20.52.16_3b6dc765.jpg'); 
-    background-size: cover; 
+
+    background-image: url(' WhatsApp Image 2024-12-04 at 20.52.16_3b6dc765.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
 
 
 }
 
 
-#bio{
+#bio {
     font-size: 57px;
     color: aliceblue;
     text-align: center;
@@ -149,7 +156,7 @@ a{
 
 }
 
-#reel{
+#reel {
     padding: 20px;
     color: beige;
     font-size: 24px;
@@ -157,14 +164,14 @@ a{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.foot{
-color: black;
-background-color: beige;
-display: flex;
-font-size: 16px;
-justify-content: center;
-height: 20px;
-margin: 20px;
+.foot {
+    color: black;
+    background-color: beige;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    height: 20px;
+    margin: 20px;
 
 }
 
@@ -187,7 +194,7 @@ margin: 20px;
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(5px);
-    
+
 }
 
 .contact-container h1 {
@@ -253,14 +260,14 @@ margin: 20px;
     color: black;
     cursor: pointer;
     transition: background 0.3s ease-in-out;
-    
+
 }
 
 .contact-form button:hover {
     background: rgb(255, 200, 100);
 }
 
-.cpo{
+.cpo {
     color: black;
     margin: 0px;
     background-color: beige;
@@ -340,8 +347,9 @@ margin: 20px;
     transition: background 0.3s ease;
 }
 
-
-
+.btn:hover {
+    background: rgb(255, 200, 100);
+}
 
 
 
@@ -481,12 +489,4 @@ margin-top: 10px;
 }
 }
 
-    
-
-
-    
-
-
-.btn:hover {
-    background: rgb(255, 200, 100);
-}
+ 
