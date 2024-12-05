@@ -355,6 +355,9 @@ a {
 
 
 @media (max-width:630px){
+    body{
+        margin:0px;
+        padding:0px;
     
 .backg {
     height: 100vh;
