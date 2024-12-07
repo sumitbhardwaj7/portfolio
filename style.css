@@ -655,6 +655,84 @@ a {
 
 
 
+    
+
+
+/* portfolio */
+
+
+.portfolio-section {
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+}
+
+.portfolio-section h1 {
+    font-size: 40px;
+    color: beige;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+}
+
+.portfolio-section p {
+    font-size: 15px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.portfolio-card {
+    width: 250px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: left;
+    color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
+}
+
+.portfolio-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: beige;
+}
+
+.portfolio-card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    background: beige;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: rgb(255, 200, 100);
+}
+
+
 
 
 }
